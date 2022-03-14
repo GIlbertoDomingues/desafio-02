@@ -1,0 +1,138 @@
+:root {
+  --gray-darker: #3C3C3C;
+  --gray-lighter: #CCC;
+
+  --white: #FFF;
+	--blue: #6CD0DB;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow: hidden;
+
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.wrapper-header {
+  width: 1440px;
+  height: 713px;
+  position: relative;
+  margin: 0 auto;
+  /* background: linear-gradient(to right,  rgba(255,255,255,1) 20%, rgba(246,246,246,1) 20%, rgba(246,246,246,1) 100%); */
+}
+
+.wrapper-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f6f6f6;
+
+  width: 90%;
+  height: 100%;
+}
+
+
+/* header */
+.list-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding-top: 30px;
+  left: 15%;
+}
+
+
+.list-menu--item {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.list-menu--item a {
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+/* name */
+.title {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 150px;
+  color: #999;
+
+  margin-top: 80px;
+  position: relative;
+  z-index: 1;
+  width: 450px;
+}
+
+.list-social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.list-social--item {
+  margin-right: 30px;
+}
+
+.list-social--item a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 6.33143px;
+
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.button-cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+
+  padding: 28px 12px;
+  background: #FFE8E8;
+
+  max-width: 350px;
+
+  font-size: 24px;
+  line-height: 36px;
+  color: #665D5D;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  position: relative;
+  z-index: 1;
+}
+
+.photo {
+  max-height: 713px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
